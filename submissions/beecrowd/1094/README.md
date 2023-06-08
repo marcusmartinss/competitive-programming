@@ -1,8 +1,10 @@
-<center>beecrowd | 1029</center>
-<center>Fibonacci, Quantas Chamadas?</center>
-<center>Por Neilor Tonin, URI 🇧🇷 Brasil</center>
+### beecrowd | 1029
 
-<center>Timelimit: 1</center>
+# Fibonacci, Quantas Chamadas?
+
+Por Neilor Tonin, URI 🇧🇷 Brasil
+
+Timelimit: 1
 
 Quase todo estudante de Ciência da Computação recebe em algum momento no início de seu curso de graduação algum problema envolvendo a sequência de Fibonacci. Tal sequência tem como os dois primeiros valores 0 (zero) e 1 (um) e cada próximo valor será sempre a soma dos dois valores imediatamente anteriores. Por definição, podemos apresentar a seguinte fórmula para encontrar qualquer número da sequência de Fibonacci:
 
