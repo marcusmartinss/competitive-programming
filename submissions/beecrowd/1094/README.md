@@ -1,39 +1,38 @@
 ### beecrowd | 1029
 
-# Fibonacci, Quantas Chamadas?
+# Fibonacci, How Many Calls?
 
-Por Neilor Tonin, URI 🇧🇷 Brasil
+By Neilor Tonin, URI 🇧🇷 Brazil
 
 Timelimit: 1
 
-Quase todo estudante de Ciência da Computação recebe em algum momento no início de seu curso de graduação algum problema envolvendo a sequência de Fibonacci. Tal sequência tem como os dois primeiros valores 0 (zero) e 1 (um) e cada próximo valor será sempre a soma dos dois valores imediatamente anteriores. Por definição, podemos apresentar a seguinte fórmula para encontrar qualquer número da sequência de Fibonacci:
+Sometimes when you are a Computer Science student, you’ll see an exercise or a problem involving the Fibonacci sequence. This sequence has the first two values 0 (zero) and 1 (one) and each next value will always be the sum of the two preceding numbers. By definition, the formula to find any Fibonacci number is:
 
     fib(0) = 0
     fib(1) = 1
     fib(n) = fib(n-1) + fib(n-2);
 
-Uma das formas de encontrar o número de Fibonacci é através de chamadas recursivas. Isto é ilustrado a seguir, apresentando a árvore de derivação ao calcularmos o valor fib(4), ou seja o 5º valor desta sequência:
+One way of finding Fibonacci numbers is by recursive calls. This is illustrated below, presenting the tree of derivation when we calculate fib(4), i.e. the fifth value of this sequence:
 
 ![](https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1029.png)
 
-Desta forma,
+In this way,
+
 - fib(4) = 1+0+1+1+0 = 3
-- Foram feitas 8 calls, ou seja, 8 chamadas recursivas.
+- 8 recursive calls were done.
 
-## Entrada
-A primeira linha da entrada contém um único inteiro N, indicando o número de casos de teste. Cada caso de teste contém um inteiro X (1 ≤ X ≤ 39) .
+## Input
 
-## Saída
-Para cada caso de teste de entrada deverá ser apresentada uma linha de saída, no seguinte formato: fib(n) = num_calls calls = result, aonde num_calls é o número de chamadas recursivas, tendo sempre um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
+The first input line contains a single integer N, indicating the number of test cases. Each test case contains an integer number X (1 ≤ X ≤ 39) .
+
+## Output
+
+For each test case we will have an output line, in the following format: fib(n) = num_calls calls = result, where num_calls is the number of recursive calls, always with a space before and after the equal sign, as shown below.
 
 ---
 
-## Exemplo de Entrada
-    2
-    5
-    4
-
-## Exemplo de Saída
-
-    fib(5) = 14 calls = 5
-    fib(4) = 8 calls = 3
+| _Input Sample_ | _Output Sample_       |
+| :------------- | :-------------------- |
+| 2              | fib(5) = 14 calls = 5 |
+| 5              | fib(4) = 8 calls = 3  |
+| 4              |                       |
