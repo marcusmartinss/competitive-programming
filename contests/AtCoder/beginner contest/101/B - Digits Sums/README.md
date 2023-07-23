@@ -1,0 +1,53 @@
+# C - Minimization
+
+Time Limit: 2 sec / Memory Limit: 1024 MB
+
+Score : 200 points
+
+## Problem Statement
+
+Let S(n) denote the sum of the digits in the decimal notation of n. For example, S(101) = 1 + 0 + 1 = 2.
+
+Given an integer N, determine if S(N) divides N.
+
+## Constraints
+
+- 1 ≤ N ≤ 10<sup>9</sup>
+
+## Input
+
+Input is given from Standard Input in the following format:
+
+    N
+
+## Output
+
+If S(N) divides N, print `Yes`; if it does not, print `No`.
+
+### Sample Input 1
+
+    12
+
+### Sample Output 1
+
+    Yes
+
+In this input, N = 12. As S(12) = 1 + 2 = 3, S(N) divides N.
+
+### Sample Input 2
+
+    101
+
+### Sample Output 2
+
+    No
+
+As S(101) = 1 + 0 + 1 = 2, S(N) does not divide N.
+
+### Sample Input 3
+
+    999999999
+
+### Sample Output 3
+
+    Yes
