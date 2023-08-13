@@ -1,4 +1,15 @@
+/**
+ * @file square_digits.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @version 0.1
+ * @date 2023-07-03
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 // #include <iostream>
+#include <string>
 
 int square_digits(int num)
 {

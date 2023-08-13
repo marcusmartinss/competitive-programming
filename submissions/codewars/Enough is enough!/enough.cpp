@@ -1,6 +1,15 @@
-// #include <iostream>
-// #include <vector>
-// #include <unordered_map>
+/**
+ * @file enough.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @version 0.1
+ * @date 2023-07-03
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
+#include <vector>
+#include <unordered_map>
 
 std::vector<int> deleteNth(std::vector<int> arr, int n)
 {

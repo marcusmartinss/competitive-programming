@@ -1,4 +1,14 @@
-// #include <bits/stdc++.h>
+/**
+ * @file parentheses.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @version 0.1
+ * @date 2023-08-13
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
+#include <bits/stdc++.h>
 
 using namespace std;
 

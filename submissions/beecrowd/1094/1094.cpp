@@ -1,3 +1,14 @@
+/**
+ * @file 1094.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2023-06-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <iostream>
  
 int fib (int num, int& calls);

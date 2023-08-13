@@ -1,3 +1,13 @@
+/**
+ * @file square_digits.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @version 0.1
+ * @date 2023-07-03
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <bits/stdc++.h>
 
 using namespace std;

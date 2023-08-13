@@ -1,3 +1,14 @@
+/**
+ * @file 1820B.cpp
+ * @author Marcus Martins (marcuspaivamartins@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2023-06-08
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <iostream>
 #include <algorithm> // to use the function count()
 using namespace std;
